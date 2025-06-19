@@ -2,7 +2,7 @@
 markdown
 Copy
 Edit
-# 🎓 Student Event Management System (Backend)
+# 🎓 Student Event Management System 
 
 An ASP.NET Core Web API project for managing student event registrations in a university or campus environment. This backend system supports RESTful endpoints for creating, updating, and tracking students, events, and registrations.
 
@@ -90,9 +90,7 @@ POST	/api/registrations	Register a student for an event
 DELETE	/api/registrations/{id}	Cancel a registration
 
 🧪 Testing
-Use Swagger or Postman for testing all endpoints.
-
-📸 Screenshots
+Use Swagger or Postman for testing all endpoints
 
 📂 Project Structure
 Copy
