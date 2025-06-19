@@ -1,25 +1,25 @@
-📘 README.md
+README.md
 markdown
 Copy
 Edit
-# 🎓 Student Event Management System 
+Student Event Management System 
 
 An ASP.NET Core Web API project for managing student event registrations in a university or campus environment. This backend system supports RESTful endpoints for creating, updating, and tracking students, events, and registrations.
 
----
 
-## 📌 Features
 
-- ✅ Manage Students (Create, Read, Update, Delete)
-- ✅ Manage Events
-- ✅ Register/Unregister Students for Events
-- ✅ Swagger UI for API Testing
-- ✅ EF Core Integration with SQL Server
-- ✅ Clean Architecture with Layered Design
+ Features
 
----
+-  Manage Students (Create, Read, Update, Delete)
+-  Manage Events
+-  Register/Unregister Students for Events
+-  Swagger UI for API Testing
+-  EF Core Integration with SQL Server
+-  Clean Architecture with Layered Design
 
-## 🧱 Architecture
+
+
+ Architecture
 
 The solution follows a clean, layered architecture:
 
@@ -37,7 +37,7 @@ Edit
 
 ---
 
-## 🗃️ Database Schema (EF Core)
+ Database Schema (EF Core)
 
 **Entities:**
 
@@ -51,15 +51,15 @@ Edit
 
 ---
 
-## 🚀 Getting Started
+ Getting Started
 
-### 🔧 Prerequisites
+ Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - SQL Server or LocalDB
 - Visual Studio 2022+ or VS Code
 
-### 🛠️ Setup Instructions
+ Setup Instructions
 
 1. **Clone the repository**
    ```bash
@@ -81,7 +81,7 @@ View the API
 
 Swagger UI: https://localhost:5001/swagger
 
-📬 Sample API Endpoints
+ Sample API Endpoints
 Method	Endpoint	Description
 GET	/api/students	Get all students
 POST	/api/students	Add a new student
@@ -89,7 +89,7 @@ GET	/api/events	List all events
 POST	/api/registrations	Register a student for an event
 DELETE	/api/registrations/{id}	Cancel a registration
 
-🧪 Testing
+ Testing
 Use Swagger or Postman for testing all endpoints
 
 📂 Project Structure
