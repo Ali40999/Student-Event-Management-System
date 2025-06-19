@@ -79,7 +79,7 @@ Edit
 dotnet run
 View the API
 
-Swagger UI: https://localhost:5001/swagger
+
 
  Sample API Endpoints
 Method	Endpoint	Description
@@ -93,8 +93,6 @@ DELETE	/api/registrations/{id}	Cancel a registration
 Use Swagger or Postman for testing all endpoints
 
 📂 Project Structure
-Copy
-Edit
 📁 Controllers/
 📁 Models/
 📁 Services/
